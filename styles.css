@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Boldonse&display=swap');
+    body{background-color:lightslategray;
+          height: 100px;
+          margin: 0px;
+        }
+    header{
+      padding: 32px;
+      border-bottom: 1px solid rgb(30, 86, 142);
+      background-color: rgb(55, 95, 135);
+
+    }
+    header div {
+      text-align:center;
+    }
+    header div a{
+      transition: 1000ms ;
+      font-family: "Boldonse", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+      font-size: 20px;
+      line-height:30px;
+      margin:0 16px;
+      text-decoration: none;
+    }
+     header div a:hover  {
+      color: darkslateblue;
+      transition: 700ms ;
+    }
+
+
+      

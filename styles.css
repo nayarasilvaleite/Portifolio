@@ -24,7 +24,7 @@
       text-decoration: none;
     }
      header div a:hover  {
-      color: darkslateblue;
+      color: rgb(108, 136, 240);
       transition: 700ms ;
     }
 

@@ -27,6 +27,17 @@
       color: rgb(108, 136, 240);
       transition: 700ms ;
     }
+  
+    #box img {
+      text-align: center;
+      padding: 32px;
+    }
+    #box img{
+      border-radius: 50%;
+      border: 5px solid rgb(50, 50, 204);
+      margin-bottom: 32px;
+
+    }
 
 
       

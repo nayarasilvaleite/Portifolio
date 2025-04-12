@@ -28,16 +28,39 @@
       transition: 700ms ;
     }
   
-    #box img {
+    #box{
       text-align: center;
-      padding: 32px;
+      padding: 16px;
+      font-family: "Boldonse", system-ui
+    }
+
+    #box img{
+      width: 100px;
+      height: 100px;
     }
     #box img{
-      border-radius: 50%;
-      border: 5px solid rgb(50, 50, 204);
-      margin-bottom: 32px;
+      border: 3px solid rgb(86, 86, 254);
+      margin-bottom: 16px;
+    }
+    #box h1{
+      font-size: 28px;
+      line-height: 32px;
+      font-weight: bolder;
+      color: rgb(24, 52, 94);
+    }
+    #box h2{
+      font: size 24px; 
+      line-height: 34px;
+      font-weight: normal;
+      margin-top: 8px;
+      opacity: 0.8;
+      color: rgb(19, 75, 159);
+    }
+    #box p{
+    max-width: 500px;
+    margin: 25;
+    font-size: 24px;
 
     }
-
 
       

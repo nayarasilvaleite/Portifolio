@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Boldonse&display=swap');
-    body{background-color:lightslategray;
+    :root{
+      --subcor: rgb(142, 134, 201);
+    }
+    
+    body{background-color: var(--subcor);
           height: 100px;
           margin: 0px;
         }
     header{
       padding: 32px;
-      border-bottom: 1px solid rgb(30, 86, 142);
-      background-color: rgb(55, 95, 135);
-
+      border-bottom: 0px solid rgb(30, 86, 142);
+      background-color: rgb(16, 34, 61);
     }
-    header div {
+    .links {
       text-align:center;
     }
-    header div a{
+    .links a{
       transition: 1000ms ;
       font-family: "Boldonse", system-ui;
       font-weight: 400;
@@ -23,9 +26,10 @@
       margin:0 16px;
       text-decoration: none;
     }
-     header div a:hover  {
-      color: rgb(108, 136, 240);
+     .links a:hover  {
+      color: rgb(175, 185, 216);
       transition: 700ms ;
+      font-size: 23px;
     }
   
     #box{
@@ -35,18 +39,19 @@
     }
 
     #box img{
-      width: 100px;
-      height: 100px;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
     }
     #box img{
-      border: 3px solid rgb(86, 86, 254);
-      margin-bottom: 16px;
+      border: 3px solid rgb(16, 34, 61);
+      margin-bottom: 23px;
     }
     #box h1{
       font-size: 28px;
       line-height: 32px;
       font-weight: bolder;
-      color: rgb(24, 52, 94);
+      color: rgb(16, 34, 61);
     }
     #box h2{
       font: size 24px; 
@@ -54,13 +59,8 @@
       font-weight: normal;
       margin-top: 8px;
       opacity: 0.8;
-      color: rgb(19, 75, 159);
+      color: rgb(16, 34, 61);
     }
-    #box p{
-    max-width: 500px;
-    margin: 25;
-    font-size: 24px;
 
-    }
 
       

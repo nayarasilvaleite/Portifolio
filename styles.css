@@ -27,8 +27,7 @@
       text-decoration: none;
     }
      .links a:hover  {
-      color: rgb(175, 185, 216);
-      transition: 700ms ;
+      transition: 250ms ;
       font-size: 23px;
     }
   
